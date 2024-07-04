@@ -1,0 +1,57 @@
+body{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: none;
+}
+
+.containers{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.like-btn{
+    width: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: rgb(150, 113, 113);
+}
+
+
+.like-btn:hover{
+    background-color: rgb(202, 41, 41);
+    border: 1px solid transparent;
+    color: white;
+    box-shadow: 1px 2px 3px 2px red;
+}
+
+.more-btn{
+    width: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: rgb(150, 113, 113);
+}
+
+.more-btn:hover{
+    background-color: rgb(32, 88, 243);
+    border: 1px solid transparent;
+    color: white;
+    box-shadow: 1px 2px 3px 2px rgb(0, 174, 255);
+}
+
+
+.ul-item-list{
+    box-shadow: 1px 2px 3px 2px gray;
+}
+.ul-item-list:hover{
+    box-shadow: 4px 3px 3px 4px rgb(8, 184, 8);
+}
+
+.avatars{
+    margin-left: 130px;
+    margin-top: 15px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pokemon</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="containers flex items-center justify-between">
+        <div class="w-[69%] p-10 h-[100vh] overflow-y-auto">
+            <div class="flex justify-between">
+              <input class=" pokemon-input shadow w-[360px] py-[20px] pl-[40px] text-[22px] border-[2px] border-slate-400 rounded-[60px] outline-none" type="text" placeholder="Search...">
+              <select class=" pokemon-select p-5 shadow-md w-[250px] text-[22px] text-slate-500 border-[2px] border-slate-400 rounded-[60px]"  >
+                <option >All</option>
+              </select>
+            </div>
+            <ul class="pokemon-list flex flex-wrap justify-between gap-[30px] mt-[20px]"></ul>
+        </div>
+        <div class="w-[40%] h-[500px]  bg-white ml-10 mt-20 border-[2px] border-slate-100 rounded-[30px]  drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]">
+          <h1 class="avatars">Information about avatars</h1>
+
+          <div class="content-information">
+            
+          </div>
+        </div>
+
+    </div>
+
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

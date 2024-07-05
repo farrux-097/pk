@@ -1,7 +1,7 @@
 let elList = document.querySelector(".pokemon-list")
 let elSelect = document.querySelector(".pokemon-select")
 let elInput  = document.querySelector(".pokemon-input")
-let elContentInfo = document.querySelector(".content-info")
+let elContentInfo = document.querySelector(".content-information")
 
 function pokemonFunc(arr,list){
     list.innerHTML = ""
